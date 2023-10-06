@@ -6,8 +6,11 @@ class Dog():
         self.name = name
         self.spots = spots
 
+    #Operation/Action --> Methods
+    def bark(self):
+            print("WOOF! My name is {} and my breed is {}".format(self.name, self.breed))
+
 my_dog = Dog(breed='Lab', name="Sammy", spots=True)
 
-print(my_dog.breed)
 print(my_dog.name)
-print(my_dog.spots)
+my_dog.bark()
