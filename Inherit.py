@@ -26,3 +26,8 @@ class Dog(Animal):
 
     def bark(self):
         print("WOOF!")
+
+#createing an instance of Dog
+my_dog = Dog()
+my_dog.who_am_i()
+my_dog.bark()
