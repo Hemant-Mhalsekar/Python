@@ -1,6 +1,7 @@
 # Python mini project 1
 # Quiz Game
 # This quiz game asks 4 questions and increments the score pointer by 1.
+# Also prints the percentage of correct answers
 
 print("Welcome to my computer quiz!")
 
@@ -47,3 +48,4 @@ else:
     print("Wrong answer. The correct answer is power supply unit.")
 
 print("You got " + str(score) + " points")
+print("You got " + str((score / 4) * 100) + "%")
