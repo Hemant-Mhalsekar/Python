@@ -8,4 +8,9 @@ if playing != "yes":
 print("Let's begin!")
 
 # Question 1
-answer = input("What does CPU stand ")
+answer = input("What does CPU stand for? ")
+if answer == "central processing unit":
+    print("Correct answer")
+else:
+    print("Wrong answer. The correct answer is central processing unit.")
+
